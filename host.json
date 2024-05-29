@@ -8,15 +8,5 @@
       },
       "enableLiveMetricsFilters": true
     }
-  },
-  "extensions": {
-    "http": {
-      "routePrefix": "",
-      "cors": {
-        "allowedOrigins": [
-          "*"
-        ]
-      }
-    }//azure förstör mitt liv
   }
 }
