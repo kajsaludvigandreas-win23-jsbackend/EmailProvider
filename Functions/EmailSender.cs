@@ -17,7 +17,7 @@ namespace EmailProvider.Functions
         private readonly ILogger<EmailSender> _logger = logger;
         private readonly IEmailService _emailService = emailService;
 
-        [Function(nameof(EmailSender))]
+        [Function(nameof(EmailSender))] //funktionens namn
         public async Task Run(
             [ServiceBusTrigger("email_request", Connection = "ServiceBusConnection")]
             ServiceBusReceivedMessage message,
